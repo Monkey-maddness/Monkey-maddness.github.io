@@ -36,14 +36,11 @@ tags: [VMware,pfSense,Firewalls]
 2.	Selected Install from the welcome menu to start installation.
 
 
-![wizard img](/assets/img/posts/pfsense-setup/Welocome_pfsense.png)
-
-
 3.	Since this is an online installer, it required network configuration.
 
 4.	Selected the WAN interface by matching the MAC address of the network 
 adapter facing the internet. To find the MAC address, hovered over VM > Settings > Network Adapter > Advanced in VMware.
-![wizard img](/assets/img/posts/pfsense-setup/wan_interface.png)
+
 
 5.	Assigned the WAN interface to the matching MAC address.
 
@@ -59,11 +56,8 @@ adapter facing the internet. To find the MAC address, hovered over VM > Settings
 
 11.	Chose ZFS as the file system (more resilient to power loss), and GPT as the partition scheme.
 
-![wizard img](/assets/img/posts/pfsense-setup/File-system_partition_sscheme.png)
-![wizard img](/assets/img/posts/pfsense-setup/No_redundency.png)
 
 12.	Confirmed the disk would be wiped for installation.
-![wizard img](/assets/img/posts/pfsense-setup/disk_select.png)
 
 13.	Installed the latest stable version and rebooted the VM.
 
